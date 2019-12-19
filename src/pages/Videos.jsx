@@ -1,7 +1,7 @@
 import React from 'react'
 import Video from "../components/Video"
 import videoLinks from "../resources/videoLinks"
-import { Container, Row } from 'reactstrap'
+import {Row} from 'reactstrap'
 
 class Videos extends React.Component {
     constructor(props) {
@@ -15,14 +15,12 @@ class Videos extends React.Component {
     render(){
         return (
             <div>
-            <h1>Videos</h1>            
-            <Container>
+            <h1>vídeos</h1>            
                 <Row>
                     {this.state.videos.map(video =>
                         <Video key={video.id} link={video.link} title={video.title}/>
                     )}
                 </Row>
-            </Container>   
             </div>
         )
     }

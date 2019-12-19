@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Row} from "reactstrap"
+import {Row} from "reactstrap"
 import band from '../resources/bandProfile'
 
 import BandMember from "../components/BandMember"
@@ -20,20 +20,15 @@ class Banda extends React.Component {
 //        const {id, ...bandProps} = this.state.band
         return (
             <div className="Banda">
+                <h1>banda</h1>
                 <img src={photoBand} alt="loyal gun"/>
-                <h1>a banda</h1>
-                <p>Loyal Gun é uma banda de rock alternativo de São Paulo/SP, criada por Dija Dijones (guitarra/voz) em 2012. A banda atualmente conta também com Marcelo Muller (guitarra/voz), Raffa Ap. (baixo) e Bruno Duarte (bateria). O grupo tem influências de Superchunk, Sunny Day Real Estate, Dinosaur Jr., Superdrag, Hum e Swervedriver, além de bandas brasileiras que cantam em inglês como Pin Ups, Killing Chainsaw, Second Come, Valv, Shed e Mickey Junkies. A banda vem realizando diversos shows pela Grande São Paulo e até o momento lançou três singles: Bring Back Your Beat (2015), The Golden Ocean (2015) e Come Back (2017), todos via Howling Records. Em 2019, lança seu primeiro álbum, Faux Nostalgia, resultado de um trabalho de 2 anos em estúdios que propõe, através de letra e música, uma reflexão sobre como vemos agora o que éramos em um tempo não muito distante.</p>
-                
-                <Container>
-                    <Row>
-                        {this.state.band.map(({id, ...bandProps}) =>               
-                            <BandMember id={id} {...bandProps}/>
-                        )}
-                    </Row>
-                </Container>
-
-
-                <div className="material">
+                <p>Loyal Gun é uma banda de rock alternativo de São Paulo/SP, criada por Dija Dijones (guitarra/voz) em 2012. A banda atualmente conta também com Marcelo Muller (guitarra/voz), Raffa Ap. (baixo) e Bruno Duarte (bateria). O grupo tem influências de Superchunk, Sunny Day Real Estate, Dinosaur Jr., Superdrag, Hum e Swervedriver, além de bandas brasileiras que cantam em inglês como Pin Ups, Killing Chainsaw, Second Come, Valv, Shed e Mickey Junkies. A banda vem realizando diversos shows pela Grande São Paulo e até o momento lançou três singles: Bring Back Your Beat (2015), The Golden Ocean (2015) e Come Back (2017), todos via Howling Records. Em 2019, lança seu primeiro álbum, Faux Nostalgia, resultado de um trabalho de 2 anos em estúdios que propõe, através de letra e música, uma reflexão sobre como vemos agora o que éramos em um tempo não muito distante.</p>   
+                <Row>
+                    {this.state.band.map(({id, ...bandProps}) =>               
+                        <BandMember id={id} {...bandProps}/>
+                    )}
+                </Row>
+                <section className="material">
                     <h2>discografia</h2>
                     <ul>
                         <li>Diários Emocionais, Vol. 1 - coletânea (2014)</li>
@@ -66,7 +61,7 @@ class Banda extends React.Component {
                     <ul>
                         <li>Prêmio Dynamite de Música Independente 2016 - Categoria Revelação(indicado)</li>
                     </ul>
-                </div>
+                </section>
            </div>
         )
     }    

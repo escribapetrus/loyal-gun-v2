@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from "reactstrap";
+import {Row} from "reactstrap";
 import AlbumInfo from "../components/AlbumInfo";
 import discography from "../resources/discography";
 
@@ -18,11 +18,11 @@ class Discografia extends React.Component {
         return (
             <div className="Discografia">
                 <h1>Discografia</h1>
-                <Container>
-                    {this.state.discography.map(({id, ...albumProps}) =>
+                {this.state.discography.map(({id, ...albumProps}) =>
+                    <Row key={id}>
                         <AlbumInfo id={id} {...albumProps}/>
-                    )}               
-                </Container>                      
+                    </Row>
+                )}               
             </div>
         )
     }    

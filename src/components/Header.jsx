@@ -8,6 +8,7 @@ import {
   Nav,
   NavItem,
   NavLink,
+  Container
 } from 'reactstrap';
 
 import "./Header.scss"
@@ -26,6 +27,7 @@ const Header = (props) => {
   return (
     <div className="Header">
       <Navbar color="light" light expand="md">
+        <Container>
         <NavbarBrand href="/">loyal gun</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -37,6 +39,8 @@ const Header = (props) => {
             )}
           </Nav>
         </Collapse>
+        </Container>
+        
       </Navbar>
     </div>
   );
