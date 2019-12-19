@@ -1,6 +1,6 @@
 import React from 'react'
 import {Button} from "reactstrap"
-import Cover from "../images/loyal-gun-faux-nostalgia.jpeg"
+import Cover from "../images/loyal-gun-faux-nostalgia.jpg"
 
 import "./Home.scss"
 

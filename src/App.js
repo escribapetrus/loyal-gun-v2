@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
-
+import './fonts/BIRTH_OF_A_HERO.ttf'
 import "bootstrap/scss/bootstrap.scss"
 
 function App() {
