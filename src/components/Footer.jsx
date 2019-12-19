@@ -8,7 +8,7 @@ function Footer() {
     return (
         <div className="Footer">
             {social.map(s =>
-                <FontAwesomeIcon icon={s.icon} />
+                <FontAwesomeIcon key={s.id} icon={s.icon} />
             )}
         </div>
     )

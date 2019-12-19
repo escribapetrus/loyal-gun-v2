@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import {Link} from "react-router-dom"
 import {
   Collapse,
   Navbar,
@@ -7,11 +8,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
 } from 'reactstrap';
 
 import "./Header.scss"
@@ -19,7 +15,13 @@ import "./Header.scss"
 const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
-  const sections = ["discografia", "videos", "banda", "merch", "contatos"]
+  const sections = [
+    {id:1, name:"discografia"}, 
+    {id:2, name:"videos"}, 
+    {id:3, name: "banda"}, 
+    {id:4, name:"merch"},
+    {id:5, name:"contatos"}
+  ]
 
   return (
     <div className="Header">
@@ -29,8 +31,8 @@ const Header = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             {sections.map(section => 
-              <NavItem>
-                <NavLink href={`${section}`}>{section}</NavLink>
+              <NavItem key={section.id}>
+                <NavLink href={`${section.name}`}>{section.name}</NavLink>
               </NavItem>
             )}
           </Nav>
