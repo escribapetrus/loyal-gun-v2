@@ -15,7 +15,7 @@ export class Merch extends Component {
     render() {
         return (
             <div className="Merch">
-                <h1>Merch</h1>
+                <h1>merch</h1>
                 <Row>
                     {this.state.merch.map(({id, ...productProps}) =>
                         <MerchProduct key={id} {...productProps}/>

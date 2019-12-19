@@ -1,10 +1,14 @@
+$primary: #7D7C7A;
+$dark: #2c3440;
+
 @font-face {
   font-family: 'birth_of_a_heroregular';
   src: local('birth_of_a_heroregular'), url('./fonts/BIRTH_OF_A_HERO.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-
 }
+
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 body {
   margin: 0;
