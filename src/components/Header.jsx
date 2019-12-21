@@ -21,7 +21,7 @@ const Header = (props) => {
     {id:2, name:"videos"}, 
     {id:3, name: "banda"}, 
     {id:4, name:"merch"},
-    {id:5, name:"contatos"}
+    {id:5, name:"contato"}
   ]
 
   return (

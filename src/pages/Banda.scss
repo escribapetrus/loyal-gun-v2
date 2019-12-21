@@ -1,6 +1,7 @@
 .Banda {
     img{
         width:100%;
+        margin-bottom: 30px;
     }
     .text{
         display: flex;
@@ -8,5 +9,7 @@
         text-align: center;
 
     }
-
+    .gallery {
+        margin: 40px 0;
+    }
 }

@@ -1,14 +1,15 @@
 import React from 'react'
-import social from "../resources/social"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import "./Footer.scss"
 
-function Footer() {
+function Footer(props) {
     return (
         <div className="Footer">
-            {social.map(s =>
-                <FontAwesomeIcon key={s.id} icon={s.icon} />
+            {props.socialLinks.map(s =>
+                <a key={s.id} href={s.link}>
+                    <FontAwesomeIcon icon={s.icon} />
+                </a>
             )}
         </div>
     )

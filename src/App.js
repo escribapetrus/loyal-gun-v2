@@ -12,8 +12,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-
-import "bootstrap/scss/bootstrap.scss"
+import socialLinks from "./resources/social"
 
 function App() {
   library.add(fab)
@@ -31,7 +30,7 @@ function App() {
             <Route path="/merch" component={Merch}/>
           </Switch>
         </Container>
-        <Footer/>
+        <Footer socialLinks={socialLinks}/>
       </Router>
     </div>
   );

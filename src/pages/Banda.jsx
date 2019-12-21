@@ -23,7 +23,7 @@ class Banda extends React.Component {
                 <h1>banda</h1>
                 <img src={photoBand} alt="loyal gun"/>
                 <p>Loyal Gun é uma banda de rock alternativo de São Paulo/SP, criada por Dija Dijones (guitarra/voz) em 2012. A banda atualmente conta também com Marcelo Muller (guitarra/voz), Raffa Ap. (baixo) e Bruno Duarte (bateria). O grupo tem influências de Superchunk, Sunny Day Real Estate, Dinosaur Jr., Superdrag, Hum e Swervedriver, além de bandas brasileiras que cantam em inglês como Pin Ups, Killing Chainsaw, Second Come, Valv, Shed e Mickey Junkies. A banda vem realizando diversos shows pela Grande São Paulo e até o momento lançou três singles: Bring Back Your Beat (2015), The Golden Ocean (2015) e Come Back (2017), todos via Howling Records. Em 2019, lança seu primeiro álbum, Faux Nostalgia, resultado de um trabalho de 2 anos em estúdios que propõe, através de letra e música, uma reflexão sobre como vemos agora o que éramos em um tempo não muito distante.</p>   
-                <Row>
+                <Row className="gallery">
                     {this.state.band.map(({id, ...bandProps}) =>               
                         <BandMember id={id} {...bandProps}/>
                     )}

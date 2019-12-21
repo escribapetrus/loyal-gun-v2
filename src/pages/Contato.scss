@@ -1,0 +1,16 @@
+.Contato {
+    img{
+        margin-bottom: 40px;
+    }
+    .link-group {
+        display: flex;
+        flex-direction: row;
+        padding: 0 50px;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+    }
+}
