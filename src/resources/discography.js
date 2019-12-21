@@ -9,6 +9,7 @@ import diarios1 from "../images/loyal-gun-diarios-emocionais-vol1.jpg";
 const discography = [
     {
         id:1,
+        link: "https://oucala.za.mus.br/faux-nostalgia/",
         title: "faux nostalgia",
         year: 2019,
         label: "howlin' records",
@@ -40,6 +41,7 @@ const discography = [
     },
     {
         id:2,
+        link: "https://loyalgun.bandcamp.com/album/come-back-single",
         title: "come back",
         year: 2017,
         label: "howlin' records",
@@ -57,6 +59,7 @@ const discography = [
     },
     {
         id: 3,
+        link: "https://bichanorecords.bandcamp.com/track/bring-back-your-beat",
         title: "diários emocionais, vol. 4",
         year: 2015,
         label: "bichano records",
@@ -73,6 +76,7 @@ const discography = [
     },
     {
         id:4,
+        link: "https://loyalgun.bandcamp.com/album/the-golden-ocean-single",
         title: "the golden ocean",
         year: 2015,
         label: "howlin' records",
@@ -90,6 +94,7 @@ const discography = [
     },
     {
         id:5,
+        link: "https://loyalgun.bandcamp.com/album/bring-back-your-beat-single",
         title: "bring back your beat",
         year: 2015,
         label: "howlin' records",
@@ -107,6 +112,7 @@ const discography = [
     },
     {
         id:6,
+        link: "https://bichanorecords.bandcamp.com/track/dont-go-outside-ill-take-care-of-you",
         title: "diários emocionais, vol.1",
         year: 2014,
         label: "bichano records",

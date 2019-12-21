@@ -22,7 +22,7 @@ class Banda extends React.Component {
             <div className="Banda">
                 <h1>banda</h1>
                 <img src={photoBand} alt="loyal gun"/>
-                <p>Loyal Gun é uma banda de rock alternativo de São Paulo/SP, criada por Dija Dijones (guitarra/voz) em 2012. A banda atualmente conta também com Marcelo Muller (guitarra/voz), Raffa Ap. (baixo) e Bruno Duarte (bateria). O grupo tem influências de Superchunk, Sunny Day Real Estate, Dinosaur Jr., Superdrag, Hum e Swervedriver, além de bandas brasileiras que cantam em inglês como Pin Ups, Killing Chainsaw, Second Come, Valv, Shed e Mickey Junkies. A banda vem realizando diversos shows pela Grande São Paulo e até o momento lançou três singles: Bring Back Your Beat (2015), The Golden Ocean (2015) e Come Back (2017), todos via Howling Records. Em 2019, lança seu primeiro álbum, Faux Nostalgia, resultado de um trabalho de 2 anos em estúdios que propõe, através de letra e música, uma reflexão sobre como vemos agora o que éramos em um tempo não muito distante.</p>   
+                <p className="bio">Loyal Gun é uma banda de rock alternativo de São Paulo/SP, criada por Dija Dijones (guitarra/voz) em 2012. A banda atualmente conta também com Marcelo Muller (guitarra/voz), Raffa Ap. (baixo) e Bruno Duarte (bateria). O grupo tem influências de Superchunk, Sunny Day Real Estate, Dinosaur Jr., Superdrag, Hum e Swervedriver, além de bandas brasileiras que cantam em inglês como Pin Ups, Killing Chainsaw, Second Come, Valv, Shed e Mickey Junkies. A banda vem realizando diversos shows pela Grande São Paulo e até o momento lançou três singles: Bring Back Your Beat (2015), The Golden Ocean (2015) e Come Back (2017), todos via Howling Records. Em 2019, lança seu primeiro álbum, Faux Nostalgia, resultado de um trabalho de 2 anos em estúdios que propõe, através de letra e música, uma reflexão sobre como vemos agora o que éramos em um tempo não muito distante.</p>   
                 <Row className="gallery">
                     {this.state.band.map(({id, ...bandProps}) =>               
                         <BandMember id={id} {...bandProps}/>
@@ -42,24 +42,24 @@ class Banda extends React.Component {
                     <ul>
                         <li>
                             Bring Back Your Beat - clipe (2015)
-                            <a href="http://abre.ai/bringbackyourbeat">assista</a>
+                            <a href="http://abre.ai/bringbackyourbeat"> assista</a>
                         </li>
                         <li>
                             The Golden Ocean - clipe (2015)
-                            <a href="http://abre.ai/thegoldenocean">assista</a>
+                            <a href="http://abre.ai/thegoldenocean"> assista</a>
                         </li>
                         <li>
                             Guitar Days: An Unlikely Story of Brazilian Music - Participação (2018)
-                            <a href="http://guitardays.com.br/as-bandas">assista</a>
+                            <a href="http://guitardays.com.br/as-bandas"> assista</a>
                         </li>
                         <li>
                             Come Back - clipe (2019)
-                            <a href="http://abre.ai/comeback">assista</a>
+                            <a href="http://abre.ai/comeback"> assista</a>
                         </li>
                     </ul>
                     <h2>premiações</h2>
                     <ul>
-                        <li>Prêmio Dynamite de Música Independente 2016 - Categoria Revelação(indicado)</li>
+                        <li>Prêmio Dynamite de Música Independente 2016 - Categoria Revelação (indicado)</li>
                     </ul>
                 </section>
            </div>

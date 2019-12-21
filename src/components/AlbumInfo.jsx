@@ -1,14 +1,30 @@
 import React from 'react'
-import {Row, Col} from "reactstrap";
+import {Row, Col, Button} from "reactstrap";
 
-function AlbumInfo({id, title, year, description, label, tracklist, image, band, guests}) {
+function AlbumInfo({
+        title, 
+        link, 
+        year, 
+        description, 
+        label, 
+        tracklist, 
+        image, 
+        band, 
+        guests
+    }) {
     return (
         <>
-        <Col md={3}>
+        <Col md={3} className="thumbnail">
             <img alt={title} className="img-fluid" src={image}/>
         </Col>
         <Col md={9}>
-            <h3>{title}</h3>
+            <div className="info-header">
+                <h2>{title}</h2>
+                <a href={link}>
+                    <Button size="sm" outline>ouça</Button>
+                </a>
+            </div>
+            
             <h4>{year} {label}</h4>
             <p>{description}</p>
             <Row>

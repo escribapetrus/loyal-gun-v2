@@ -3,11 +3,25 @@
         width:100%;
         margin-bottom: 30px;
     }
+
+    .bio{
+        padding: 0 30px;
+    }
+    .material{
+        padding: 0 30px;
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+    }
     .text{
         display: flex;
         flex-direction: column;
         text-align: center;
-
+        & :first-child{
+            font-size: 1.4rem;
+            text-transform: capitalize;
+        }
     }
     .gallery {
         margin: 40px 0;
