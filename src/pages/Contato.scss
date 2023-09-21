@@ -9,6 +9,10 @@
         display: flex;
         flex-direction: row;
         padding: 0 50px;
+	@media (max-width: 760px) {
+	    flex-direction: column;
+	    padding: 0;
+	}
     }
     .links {
         display: flex;

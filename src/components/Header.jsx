@@ -17,10 +17,10 @@ const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
   const sections = [
-    {id:1, name:"discografia"}, 
-    {id:2, name:"videos"}, 
-    {id:3, name: "banda"}, 
-    {id:5, name:"contato"}
+    {id: 1, name: "discografia"}, 
+    {id: 2, name: "videos"}, 
+    {id: 3, name: "banda"}, 
+    {id: 5, name: "contato"}
   ]
 
   return (

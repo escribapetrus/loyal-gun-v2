@@ -3,41 +3,49 @@ const social = [
         id: 1,
         text: "loyal gun",
         icon: ["fab", "spotify"],
-        link: "https://open.spotify.com/album/3c0wN4ytiL1CHBrxq7viNR"
+        link: "https://open.spotify.com/intl-pt/artist/1bVsmkvRtAVtVJyk6tfHX9?si=XAAHau2tRJWNRehRagcwQg"
     },
     {
-        id:2,
+        id: 2,
+        text: "loyal gun",
+        icon: ["fab", "deezer"],
+        link: "https://deezer.page.link/fFYCYbFL5LGk3nXR6"
+    },
+    {
+        id: 3,
         text: "loyalgun",
-        icon: ["fab", "instagram"],
-        link: "https://www.instagram.com/loyalgun/",
+        icon: ["fab", "apple"],
+        link: "https://music.apple.com/us/artist/loyal-gun/1047240110",
         
     },
     {
-        id:3,
+        id: 4,
+        text: "loyalgun",
+        icon: ["fab", "amazon"],
+        link: "https://www.amazon.com/music/player/artists/B019K0ENDA/loyal-gun",
+        
+    },
+    {
+        id: 5,
         text: "loyalgun",
         icon: ["fab", "youtube"],
         link: "https://www.youtube.com/watch?v=OgYyJ_N-A3E",
         
     },
     {
-        id:4,
-        text: "loyalgun",
-        icon: ["fab", "soundcloud"],
-        link: "https://soundcloud.com/loyalgun/sets/faux-nostalgia",
-        
-    },
-    {
-        id:5,
+        id: 6,
         text: "loyalgun",
         icon: ["fab", "bandcamp"],
         link: "https://loyalgun.bandcamp.com/album/faux-nostalgia",
         
     },
+    {
+        id: 7,
+        text: "loyalgun",
+        icon: ["fab", "soundcloud"],
+        link: "https://soundcloud.com/loyalgun/sets/faux-nostalgia",
+        
+    }
 ]
 
 export default social
-
-// https://www.youtube.com/watch?v=OgYyJ_N-A3E
-// https://www.deezer.com/fr/album/111239412
-// https://soundcloud.com/loyalgun/sets/faux-nostalgia
-// https://loyalgun.bandcamp.com/album/faux-nostalgia
