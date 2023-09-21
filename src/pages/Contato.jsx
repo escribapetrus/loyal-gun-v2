@@ -18,7 +18,6 @@ class Contato extends React.Component {
     render() {
         return (
             <div className="Contato">
-                <h1>contato</h1>
                 <img className="img-fluid" src={imageHeader} alt="loyal gun"/>
                 <div className="link-group">
                     <div className="links">

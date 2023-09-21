@@ -1,6 +1,7 @@
 import React from 'react'
 import {Button} from "reactstrap"
-import Cover from "../images/loyal-gun-faux-nostalgia.jpg"
+import fauxnostalgia from "../images/loyal-gun-faux-nostalgia-border.png"
+import leitmotif from "../images/loyal-gun-leitmotif-border.png"
 
 import "./Home.scss"
 
@@ -10,11 +11,20 @@ function Home() {
     }
     return (
         <div className="Home">
-            <Button onClick={handleClick} className="Button" outline color="secondary">
-                Clique e baixe o disco
-            </Button>
-            <img onClick={handleClick} className="cover" alt="capa do disco faux nostalgia" src={Cover}/>
-            <p>Ouça agora nosso álbum Faux Nostalgia, disponível nas plataformas Spotify, Soundcloud, Deezer e Bandcamp</p>
+	    <div className="HomeDisplays">
+		<div className="HomeDisplay">
+		    <h2>leitmotif(2023)</h2>
+		    <img onClick={handleClick} className="cover" alt="capa do disco leitmotif" src={leitmotif}/>
+		    <Button onClick={handleClick} className="Button">DOWNLOAD</Button>
+
+		</div>
+		<div className="HomeDisplay">
+		    <h2>faux nostalgia (2023)</h2>
+		    <img onClick={handleClick} className="cover" alt="capa do disco faux nostalgia" src={fauxnostalgia}/>
+		    <Button onClick={handleClick} className="Button">DOWNLOAD</Button>
+		</div>
+
+           </div>
         </div>
     )
 }

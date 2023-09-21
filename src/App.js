@@ -3,7 +3,6 @@ import Home from "./pages/Home"
 import Banda from "./pages/Banda"
 import Contato from "./pages/Contato"
 import Discografia from "./pages/Discografia"
-import Merch from "./pages/Merch"
 import Videos from "./pages/Videos"
 import {Container} from 'reactstrap'
 import Header from "./components/Header"
@@ -27,7 +26,6 @@ function App() {
             <Route path="/contato" component={Contato}/>
             <Route path="/discografia" component={Discografia}/>
             <Route path="/videos" component={Videos}/>
-            <Route path="/merch" component={Merch}/>
           </Switch>
         </Container>
         <Footer socialLinks={socialLinks}/>

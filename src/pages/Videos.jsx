@@ -17,7 +17,6 @@ class Videos extends React.Component {
     render(){
         return (
             <div className="Videos">
-            <h1>vídeos</h1>            
                 <Row>
                     {this.state.videos.map(video =>
                         <Video key={video.id} link={video.link} title={video.title}/>

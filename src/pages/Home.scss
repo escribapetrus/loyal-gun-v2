@@ -4,11 +4,35 @@
     justify-content: center;
     align-items: center;
 
-    .Button {
-        width: 250px;
-    }
+    .HomeDisplays {
+	display: flex;
+	flex-direction: row;
 
-    img {
-        cursor: pointer;
+	@media (max-width: 760px) {
+		flex-direction: column;
+	}
+	.HomeDisplay {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    max-width: 600px;
+	    margin: 60px;
+	    h2 {
+		text-align: center;
+		color: #ddd;
+		text-shadow: #ddd 2px 0 20px;
+	    }
+
+	    .Button {
+		width: 250px;
+		margin: 20px;
+		background-color: #581d22;
+	    }
+
+	    img {
+		cursor: pointer;
+		width:100%;
+	    }
+	}
     }
 }

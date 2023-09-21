@@ -17,7 +17,6 @@ class Discografia extends React.Component {
     render(){
         return (
             <div className="Discografia">
-                <h1>discografia</h1>
                 {this.state.discography.map(({id, ...albumProps}) =>
                     <Row key={id}>
                         <AlbumInfo id={id} {...albumProps}/>

@@ -20,21 +20,22 @@ const Header = (props) => {
     {id:1, name:"discografia"}, 
     {id:2, name:"videos"}, 
     {id:3, name: "banda"}, 
-    {id:4, name:"merch"},
     {id:5, name:"contato"}
   ]
 
   return (
     <div className="Header">
-      <Navbar color="dark" dark expand="md">
+      <Navbar color="light" light expand="md">
         <Container>
-        <NavbarBrand href="/">loyal gun</NavbarBrand>
+        <NavbarBrand href="/"><span style={{color: "#ddd"}}>loyal gun</span></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             {sections.map(section => 
               <NavItem key={section.id}>
-                <NavLink href={`${section.name}`}>{section.name}</NavLink>
+                  <NavLink href={`${section.name}`}>
+		      <span style={{color: "#ddd"}}>{section.name}</span>
+		  </NavLink>
               </NavItem>
             )}
           </Nav>
