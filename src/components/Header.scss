@@ -1,11 +1,17 @@
 .Header {
     margin-bottom: 50px;
-
+    text-transform: uppercase;
+    .bg-light {
+	background-color: transparent !important;
+    }
     .nav-link{
-        font-size: 1.3rem;
+	font-size: 1.3rem;
+	text-shadow: #ddd 2px 0 20px;
+	
     }
     .navbar-brand{
-        font-family: "birth_of_a_heroregular";
+	font-family: "birth_of_a_heroregular";
         font-size: 2.5rem;
+	text-shadow: #ddd 2px 0 20px;
     }
 }

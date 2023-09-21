@@ -1,4 +1,5 @@
 import fauxNostalgia from "../images/loyal-gun-faux-nostalgia.jpg";
+import leitmotif from "../images/loyal-gun-leitmotif.jpg";
 import comeBack from "../images/loyal-gun-come-back.jpg";
 import diarios4 from "../images/loyal-gun-diarios-emocionais-vol4.jpg";
 import goldenOcean from "../images/loyal-gun-golden-ocean.jpg";
@@ -7,6 +8,33 @@ import diarios1 from "../images/loyal-gun-diarios-emocionais-vol1.jpg";
 
 
 const discography = [
+        {
+        id: 1,
+        link: "https://youtu.be/Dq1a_p-a7FM",
+        title: "leitmotif",
+        year: 2023,
+        label: "howlin' records",
+        image: leitmotif,
+            description: '2023 (Sana Simplex/Coletivo Lança). Produzido e arranjado por Loyal Gun. Todas as composições e letras por Dija Dijones. Gravado no Estúdio GQP entre 4 de julho de 2022 e 9 de agosto de 2023 por Loyal Gun. Mixado e masterizado por Marcelo Muller. Arte da capa por Rodrigo Lima. Fotos por Filipe de Toledo e Luqizila.',
+        tracklist: [
+	    "Uptight",
+	    "Side By Side",
+	    "How Are You Feeling?",
+	    "Post-Truth",
+	    "Comfort Zone",
+	    "Searching",
+	    "No Hopes & No Perspectives",
+	    "Whereabout",
+	    "Wrong",
+	    "Bluster"
+        ],
+        band: [
+            "Dija Dijones – vocais, guitarras, violão e programação. Backing vocals nas faixas 1, 3, 4, 5, 6, 8, 9 e 10.",
+	    "Marcelo Muller – guitarras e programação. Backing vocals nas faixas 1, 2, 4 e 6.",
+	    "Raffa Ap. - baixo.",
+	    "Bruno Duarte – bateria."
+        ],       
+    },
     {
         id:1,
         link: "https://oucala.za.mus.br/faux-nostalgia/",
