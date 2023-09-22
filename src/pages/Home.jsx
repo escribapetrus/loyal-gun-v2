@@ -13,7 +13,7 @@ function Home() {
 	    altText: "capa do disco leitmotif",
 	    image: leitmotif,
 	    handleClick: () => {
-		window.open("https://youtu.be/Dq1a_p-a7FM");
+		window.open("https://drive.google.com/drive/folders/1-8yG76s7qtanIJHRWyQ3zOdA4fHZ41Zo");
 	    }
 	},
 	{

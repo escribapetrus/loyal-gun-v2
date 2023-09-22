@@ -1,19 +1,19 @@
 const videos = [
-    // {
+    //{
     // 	id: 1,
     // 	title: "Uptight (Official Lyric Video)",
     // 	link: "https://www.youtube.com/watch?v=qZwLYFU-tXI"
-    // },
-    // {
+    //},
+    //{
     // 	id: 2,
     // 	title: "Stoned Session",
     // 	link: "https://www.youtube.com/watch?v=ZCWWFoh5CCc"
-    // },
-    // {
+    //},
+    //{
     // 	id: 3,
     // 	title: "Going Nowhere (Official Video)",
     // 	link: "https://www.youtube.com/watch?v=r-m2uSizplw"
-    // },
+    //},
     {
         id: 4,
         title:"Loyal Gun ao vivo no programa Fique Ligado (TV Brasil), 31.07.2019",

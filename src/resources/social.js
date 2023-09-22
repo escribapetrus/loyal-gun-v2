@@ -29,21 +29,21 @@ const social = [
         id: 5,
         text: "loyalgun",
         icon: ["fab", "youtube"],
-        link: "https://www.youtube.com/watch?v=OgYyJ_N-A3E",
+        link: "https://www.youtube.com/@loyalgun",
         
     },
     {
         id: 6,
         text: "loyalgun",
         icon: ["fab", "bandcamp"],
-        link: "https://loyalgun.bandcamp.com/album/faux-nostalgia",
+        link: "https://loyalgun.bandcamp.com",
         
     },
     {
         id: 7,
         text: "loyalgun",
         icon: ["fab", "soundcloud"],
-        link: "https://soundcloud.com/loyalgun/sets/faux-nostalgia",
+        link: "https://soundcloud.com/loyalgun",
         
     }
 ]
